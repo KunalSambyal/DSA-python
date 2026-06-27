@@ -20,15 +20,15 @@ Welcome to my personal repository dedicated to documenting my learning journey i
 
 The repository is organized into three main sections to separate theoretical concept reference, core algorithm implementation, and LeetCode problem solving.
 
-### 1. [DataStructures/](file:///D:/Coding/DSA-PY/DataStructures)
+### 1. DataStructures/
 
 This directory contains core implementations of data structures, Python syntax explanations, built-in methods/libraries (like `deque`, `heapq`), and time/space complexity notes.
 
-### 2. [Algorithms/](file:///D:/Coding/DSA-PY/Algorithms)
+### 2. Algorithms/
 
 This directory contains explanations, pseudo-code, and implementations of key algorithms (sorting, search space algorithms, tree/graph traversals).
 
-### 3. [Leetcode_Problems/](file:///D:/Coding/DSA-PY/Leetcode_Problems)
+### 3. Leetcode_Problems/
 
 This folder holds solution scripts to LeetCode questions, organized in chronological topic folders to match the roadmaps:
 
