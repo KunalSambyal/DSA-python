@@ -1,74 +1,90 @@
-# Data Structures & Algorithms (DSA) in Python
+# Data Structures & Algorithms in Python
 
-Welcome to my personal repository dedicated to documenting my learning journey in Data Structures and Algorithms (DSA) using Python. This repository serves as a learning log, a code reference, and a set of study notes for future reference.
-
----
-
-## Resources Followed
-
-- **Striver's A2Z DSA Sheet:** [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z) - Used for a step-by-step, comprehensive learning journey.
-- **W3Schools Python DSA Tutorial:** [W3Schools Python DSA Tutorial](https://www.w3schools.com/python/python_dsa.asp) - Useful for understanding basic implementations of data structures in Python.
-- **NeetCode Roadmap:** [NeetCode Roadmap](https://neetcode.io/roadmap) - Followed for LeetCode practice and structured topic progression.
-- **Abdul Bari (YouTube):** [Abdul Bari Channel](https://www.youtube.com/@abdul_bari) - Exceptional for learning theoretical concepts, algorithmic paradigms (Greedy, DP, Divide & Conquer), and complexities.
-- **Problem Solving with Algorithms and Data Structures using Python:** [Runestone Academy Book](https://runestone.academy/ns/books/published/pythonds3/index.html) - A free, interactive textbook showing Pythonic implementations of classic structures and algorithms.
-- **VisuAlgo.net:** [VisuAlgo](https://visualgo.net) - Interactive animations of operations on trees, graphs, sorting, and other structures.
-- **Algorithm Visualizer:** [Algorithm Visualizer](https://algorithm-visualizer.org/) - An interactive online portal that compiles and visualizes your code execution.
+A personal learning repository documenting my journey through Data Structures and Algorithms (DSA) using Python — covering implementations, complexity analysis, and curated LeetCode solutions.
 
 ---
 
 ## Repository Structure
 
-The repository is organized into three main sections to separate theoretical concept reference, core algorithm implementation, and LeetCode problem solving.
-
-### 1. Data_Structures/
-
-This directory contains core implementations of data structures, Python syntax explanations, built-in methods/libraries (like `deque`, `heapq`), and time/space complexity notes.
-
-<!-- ### 2. Algorithms/
-
-This directory contains explanations, pseudo-code, and implementations of key algorithms (sorting, search space algorithms, tree/graph traversals). -->
-
-### 3. Leetcode_Problems/
-
-This folder holds solution scripts to LeetCode questions, organized in chronological topic folders to match the roadmaps:
-
----
-
-<!-- ## Leetcode Topic Roadmap Blueprint
-
-Inside `Leetcode_Problems/`, subfolders are created following this prefix order:
-
 ```text
-Leetcode_Problems/
-├── 01_basics/                  # Big-O complexity, Basic Math, Basic Recursion
-└── 02_arrays_and_hashing/      # Arrays, HashMaps, HashSets
+DSA-PY/
+├── Python_Basics/          # Core Python syntax, OOP, standard library, and tooling
+├── Data_Structures/        # Implementations of core structures with complexity notes
+├── Algorithms/             # Sorting, searching, recursion, graph traversals, and more
+└── Leetcode_Problems/      # Solutions organized by topic to match study roadmaps
+```
 
-``` -->
+### [Python Basics](./Python_Basics/README.md)
 
-<!-- ├── 03_two_pointers/            # Two-pointer problems
-├── 04_sliding_window/          # Fixed & variable window problems
-├── 05_stack_and_queue/         # Stack & queue applications
-├── 06_binary_search/           # Binary search on arrays/search space
-├── 07_linked_list/             # Lists, pointers, manipulation
-├── 08_recursion_backtracking/  # Backtracking, N-Queens
-├── 09_trees/                   # Tree traversals, BSTs
-├── 10_heaps_priority_queue/    # Heap operations
-├── 11_graphs/                  # BFS, DFS, MST, shortest paths
-├── 12_dynamic_programming/     # DP grid, sequence, knapsack
-└── 13_tries/                   # Trie prefix trees -->
+A beginner-friendly guide to Python fundamentals — syntax, data types, OOP, the standard library, and environment setup. Start here if you are new to Python.
+
+### [Data Structures](./Data_Structures/)
+
+Custom implementations of core data structures (arrays, linked lists, stacks, queues, trees, graphs, heaps, hash maps) with Python-specific notes on built-in libraries such as `collections.deque` and `heapq`, and time/space complexity breakdowns for every operation.
+
+### [Algorithms](./Algorithms/)
+
+Explanations, pseudocode, and Python implementations of key algorithmic techniques — sorting, binary search, recursion, dynamic programming, greedy methods, and graph traversals (BFS/DFS).
+
+### [Leetcode Problems](./Leetcode_Problems/)
+
+Solved LeetCode problems organized by topic and difficulty, structured to follow the NeetCode and Striver A2Z roadmaps. Each solution includes an explanation and complexity analysis.
 
 ---
 
-## How to Run
+## Recommended Learning Path
 
-To run any of the solution scripts, ensure you have Python 3 installed on your system. Navigate to the repository directory and execute the script using your terminal:
+> **New to Python?** Work through [Python Basics](./Python_Basics/README.md) before starting DSA.
 
-```bash
-python "Leetcode_Problems/02_Arrays_and_Hashing/two_sum.py"
-```
+Follow this order for the most structured progression:
+
+**1. Python Basics** → Build a solid foundation in Python syntax, data types, functions, and OOP.
+
+**2. Data Structures** → Learn and implement each structure from scratch. Understand _when_ and _why_ to use each one.
+
+**3. LeetCode Problems** → After each data structure, immediately practice its corresponding LeetCode problems to reinforce the concept.
+
+**4. Algorithms** → Layer in algorithmic techniques (sorting, recursion, dynamic programming) as you grow comfortable with the underlying structures.
+
+Repeat steps 2–4 progressively — don't wait to finish all data structures before touching algorithms or LeetCode.
+
+---
+
+## Resources
+
+### Video
+
+| Resource                                                    | Why it's useful                                                                                                               |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [Abdul Bari (YouTube)](https://www.youtube.com/@abdul_bari) | Best for theory — algorithm paradigms (Greedy, DP, Divide & Conquer) and complexity analysis explained from first principles. |
+| [NeetCode (YouTube)](https://www.youtube.com/@NeetCode)     | Clear, concise LeetCode walkthroughs organized by topic and difficulty.                                                       |
+
+### Roadmaps & Problem Sets
+
+| Resource                                                                                    | Why it's useful                                                                        |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z) | Comprehensive step-by-step sheet covering every major DSA topic with curated problems. |
+| [NeetCode Roadmap](https://neetcode.io/roadmap)                                             | A structured topic progression for LeetCode practice, from arrays to advanced graphs.  |
+
+### Reading
+
+| Resource                                                                                                                              | Why it's useful                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) | A free interactive textbook covering Pythonic implementations of classic structures and algorithms. |
+| [W3Schools Python DSA](https://www.w3schools.com/python/python_dsa.asp)                                                               | Quick reference for basic data structure implementations in Python.                                 |
+
+### Visualization
+
+| Resource                                                  | Why it's useful                                                                                     |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| [VisuAlgo](https://visualgo.net)                          | Animated, step-by-step visualizations of operations on trees, graphs, sorting algorithms, and more. |
+| [Algorithm Visualizer](https://algorithm-visualizer.org/) | Interactive portal that compiles and visualizes code execution in real time.                        |
 
 ---
 
 ## Author
 
-- **Kunal Sambyal**
+**Kunal Sambyal**
+
+- GitHub: [@KunalSambyal](https://github.com/KunalSambyal)
+- LinkedIn: [linkedin.com/in/kuanl-sambyal/](https://www.linkedin.com/in/kuanl-sambyal/)
