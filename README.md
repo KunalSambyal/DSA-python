@@ -20,13 +20,13 @@ Welcome to my personal repository dedicated to documenting my learning journey i
 
 The repository is organized into three main sections to separate theoretical concept reference, core algorithm implementation, and LeetCode problem solving.
 
-### 1. DataStructures/
+### 1. Data_Structures/
 
 This directory contains core implementations of data structures, Python syntax explanations, built-in methods/libraries (like `deque`, `heapq`), and time/space complexity notes.
 
-### 2. Algorithms/
+<!-- ### 2. Algorithms/
 
-This directory contains explanations, pseudo-code, and implementations of key algorithms (sorting, search space algorithms, tree/graph traversals).
+This directory contains explanations, pseudo-code, and implementations of key algorithms (sorting, search space algorithms, tree/graph traversals). -->
 
 ### 3. Leetcode_Problems/
 
@@ -34,7 +34,7 @@ This folder holds solution scripts to LeetCode questions, organized in chronolog
 
 ---
 
-## Leetcode Topic Roadmap Blueprint
+<!-- ## Leetcode Topic Roadmap Blueprint
 
 Inside `Leetcode_Problems/`, subfolders are created following this prefix order:
 
@@ -43,7 +43,7 @@ Leetcode_Problems/
 ├── 01_basics/                  # Big-O complexity, Basic Math, Basic Recursion
 └── 02_arrays_and_hashing/      # Arrays, HashMaps, HashSets
 
-```
+``` -->
 
 <!-- ├── 03_two_pointers/            # Two-pointer problems
 ├── 04_sliding_window/          # Fixed & variable window problems
