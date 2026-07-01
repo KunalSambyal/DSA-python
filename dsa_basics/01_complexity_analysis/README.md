@@ -138,3 +138,10 @@ def recursive_sum(n):
 4. **Multi-Part Inputs:** If an algorithm handles two different inputs of size A and B:
     - Sequential operations sum up: O(A + B)
     - Nested operations multiply: O(A × B)
+
+---
+
+## Related Resources
+
+- [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
+- [dsa_basics README](../README.md)

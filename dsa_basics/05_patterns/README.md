@@ -50,4 +50,5 @@ When printing loop patterns, always visualize them on a 2D coordinate grid (rows
 ## Related Resources
 
 - **Implementation Code:** [patterns.py](patterns.py)
+- **Reference Roadmap:** [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
 - **Parent Directory README:** [dsa_basics README](../README.md)

@@ -44,4 +44,5 @@ Iterate through the frequency map to identify keys with the highest and lowest v
 ## Related Resources
 
 - **Implementation Code:** [basic_hashing.py](basic_hashing.py)
+- **Reference Roadmap:** [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
 - **Parent Directory README:** [dsa_basics README](../README.md)

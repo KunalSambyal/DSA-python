@@ -53,4 +53,5 @@ Loop from 2 to `sqrt(n)`. If any number divides `n`, it is composite; otherwise,
 ## Related Resources
 
 - **Implementation Code:** [basic_math.py](basic_math.py)
+- **Reference Roadmap:** [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
 - **Parent Directory README:** [dsa_basics README](../README.md)

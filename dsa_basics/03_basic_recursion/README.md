@@ -56,4 +56,5 @@ Compare the boundary characters. If they match, recursively check the inner subs
 ## Related Resources
 
 - **Implementation Code:** [recursion_basics.py](recursion_basics.py)
+- **Reference Roadmap:** [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
 - **Parent Directory README:** [dsa_basics README](../README.md)
