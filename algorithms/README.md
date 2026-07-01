@@ -10,8 +10,8 @@ Sorting algorithms arrange elements of a list in a specific order (typically asc
 
 Currently documented algorithms:
 
-- **Bubble Sort:** [bubble_sort.py](sorting/bubble_sort.py) - Simple adjacent swap-based sorting algorithm.
-- **Selection Sort:** [selection_sort.py](sorting/selection_sort.py) - Simple minimum-selection sorting algorithm.
+- **Bubble Sort:** [bubble_sort.py](01_sorting/bubble_sort.py) - Simple adjacent swap-based sorting algorithm.
+- **Selection Sort:** [selection_sort.py](01_sorting/selection_sort.py) - Simple minimum-selection sorting algorithm.
 
 ---
 
@@ -20,7 +20,13 @@ Currently documented algorithms:
 ```text
 algorithms/
 ├── README.md
-└── sorting/
-    ├── bubble_sort.py
-    └── selection_sort.py
+├── 01_sorting/
+│   ├── bubble_sort.py
+│   └── selection_sort.py
+├── 02_searching/
+├── 03_greedy/
+├── 04_backtracking/
+├── 05_dynamic_programming/
+├── 06_graph_algorithms/
+└── 07_string_algorithms/
 ```
