@@ -18,7 +18,7 @@ Currently documented algorithms:
 ## Repository File Structure
 
 ```text
-Algorithms/
+algorithms/
 ├── README.md
 └── sorting/
     ├── bubble_sort.py

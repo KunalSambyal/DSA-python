@@ -1,3 +1,10 @@
+# bubble_sort.py
+"""
+Bubble Sort implementation in Python.
+Time Complexity: O(N^2)
+Space Complexity: O(1)
+"""
+
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n-1, -1, -1):
