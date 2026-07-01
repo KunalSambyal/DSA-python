@@ -8,25 +8,30 @@ A personal learning repository documenting my journey through Data Structures an
 
 ```text
 DSA-PY/
-├── Python_Basics/          # Core Python syntax, OOP, standard library, and tooling
-├── Data_Structures/        # Implementations of core structures with complexity notes
-├── Algorithms/             # Sorting, searching, recursion, graph traversals, and more
-└── Leetcode_Problems/      # Solutions organized by topic to match study roadmaps
+├── python_basics/          # Core Python syntax, OOP, standard library, and tooling
+├── dsa_basics/             # Time/space complexity, recursion, and basic math concepts
+├── data_structures/        # Implementations of core structures with complexity notes
+├── algorithms/             # Sorting, searching, recursion, graph traversals, and more
+└── leetcode_problems/      # Solutions organized by topic to match study roadmaps
 ```
 
-### [Python Basics](./Python_Basics/README.md)
+### [Python Basics](./python_basics/README.md)
 
 A beginner-friendly guide to Python fundamentals — syntax, data types, OOP, the standard library, and environment setup. Start here if you are new to Python.
 
-### [Data Structures](./Data_Structures/)
+### [DSA Basics](./dsa_basics/README.md)
+
+An introduction to fundamental analysis tools and basic programming building blocks: Big-O time and space complexity, basic mathematical algorithms, and the basics of recursion.
+
+### [Data Structures](./data_structures/)
 
 Custom implementations of core data structures (arrays, linked lists, stacks, queues, trees, graphs, heaps, hash maps) with Python-specific notes on built-in libraries such as `collections.deque` and `heapq`, and time/space complexity breakdowns for every operation.
 
-### [Algorithms](./Algorithms/)
+### [Algorithms](./algorithms/)
 
 Explanations, pseudocode, and Python implementations of key algorithmic techniques — sorting, binary search, recursion, dynamic programming, greedy methods, and graph traversals (BFS/DFS).
 
-### [Leetcode Problems](./Leetcode_Problems/)
+### [Leetcode Problems](./leetcode_problems/)
 
 Solved LeetCode problems organized by topic and difficulty, structured to follow the NeetCode and Striver A2Z roadmaps. Each solution includes an explanation and complexity analysis.
 
@@ -34,19 +39,21 @@ Solved LeetCode problems organized by topic and difficulty, structured to follow
 
 ## Recommended Learning Path
 
-> **New to Python?** Work through [Python Basics](./Python_Basics/README.md) before starting DSA.
+> **New to Python?** Work through [Python Basics](./python_basics/README.md) before starting DSA.
 
 Follow this order for the most structured progression:
 
 **1. Python Basics** → Build a solid foundation in Python syntax, data types, functions, and OOP.
 
-**2. Data Structures** → Learn and implement each structure from scratch. Understand _when_ and _why_ to use each one.
+**2. DSA Basics** → Master time/space complexity analysis (Big-O), recursion fundamentals, and basic math.
 
-**3. LeetCode Problems** → After each data structure, immediately practice its corresponding LeetCode problems to reinforce the concept.
+**3. Data Structures** → Learn and implement each structure from scratch. Understand _when_ and _why_ to use each one.
 
-**4. Algorithms** → Layer in algorithmic techniques (sorting, recursion, dynamic programming) as you grow comfortable with the underlying structures.
+**4. LeetCode Problems** → After each data structure, immediately practice its corresponding LeetCode problems to reinforce the concept.
 
-Repeat steps 2–4 progressively — don't wait to finish all data structures before touching algorithms or LeetCode.
+**5. Algorithms** → Layer in algorithmic techniques (sorting, recursion, dynamic programming) as you grow comfortable with the underlying structures.
+
+Repeat steps 3–5 progressively — don't wait to finish all data structures before touching algorithms or LeetCode.
 
 ---
 
