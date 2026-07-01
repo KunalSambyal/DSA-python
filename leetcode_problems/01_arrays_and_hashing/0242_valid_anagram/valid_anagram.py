@@ -1,16 +1,12 @@
-# Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+# valid_anagram.py
+"""
+LeetCode #242: Valid Anagram (Easy)
+https://leetcode.com/problems/valid-anagram/
 
-# Example 1:
-# Input: s = "anagram", t = "nagaram"
-# Output: true
-
-# Example 2:
-# Input: s = "rat", t = "car"
-# Output: false
-
-# Constraints:
-# 1 <= s.length, t.length <= 5 * 104
-# s and t consist of lowercase English letters.
+Complexity:
+- Time Complexity: O(N)
+- Space Complexity: O(1) (fixed lowercase English character set)
+"""
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
