@@ -40,4 +40,4 @@ In Python, the standard and most efficient way to implement a stack is using the
 ## Related Resources
 
 - Review the Python implementations in [stacks.py](stacks.py).
-- For overall linear data structures checklist, see the parent directory [Data_Structures README](../README.md).
+- For overall linear data structures checklist, see the parent directory [data_structures README](../README.md).

@@ -1,4 +1,4 @@
-# lists_and_arrays.py
+# arrays.py
 """
 Core guide to Lists (Dynamic Arrays) in Python for CP and DSA.
 Covers:

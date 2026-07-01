@@ -10,20 +10,20 @@ Linear data structures arrange elements sequentially or in a linear sequence, wh
 
 Currently documented structures:
 
-- **Arrays (Dynamic Arrays / Python Lists):** [lists_and_arrays](lists_and_arrays/README.md) - Core reference for dynamic array operations, complexities, and basic search/reverse algorithms.
-- **Stacks (Last-In-First-Out):** [stacks](stacks/README.md) - Reference for stack operations and their application in parentheses validation.
+- **Arrays (Dynamic Arrays / Python Lists):** [01_arrays](01_arrays/README.md) - Core reference for dynamic array operations, complexities, and basic search/reverse algorithms.
+- **Stacks (Last-In-First-Out):** [02_stacks](02_stacks/README.md) - Reference for stack operations and their application in parentheses validation.
 
 ---
 
 ## Repository File Structure
 
 ```text
-Data_Structures/
+data_structures/
 ├── README.md
-├── lists_and_arrays/
+├── 01_arrays/
 │   ├── README.md
-│   └── lists_and_arrays.py
-└── stacks/
+│   └── arrays.py
+└── 02_stacks/
     ├── README.md
     └── stacks.py
 ```

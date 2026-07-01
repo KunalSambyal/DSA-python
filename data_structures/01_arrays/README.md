@@ -2,7 +2,7 @@
 
 In computer science, **arrays** are fundamental contiguous-memory linear data structures. In Python, the built-in `list` data type serves as the standard dynamic array.
 
-For practical examples, see the reference script: [lists_and_arrays.py](lists_and_arrays.py).
+For practical examples, see the reference script: [arrays.py](arrays.py).
 
 ---
 
@@ -101,5 +101,5 @@ def reverse_array_in_place(arr):
 
 ## Related Resources
 
-- Check out the full implementation and code examples in [lists_and_arrays.py](lists_and_arrays.py).
-- For overall data structure details, refer to the parent directory [Data_Structures README](../README.md).
+- Check out the full implementation and code examples in [arrays.py](arrays.py).
+- For overall data structure details, refer to the parent directory [data_structures README](../README.md).
