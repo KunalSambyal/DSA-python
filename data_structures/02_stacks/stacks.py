@@ -118,7 +118,83 @@ def demo_custom_stack():
         
 
 # =====================================================================
-# 3. Stack Application: Balanced Parentheses Checker
+# 3. Linked List Implementation of Stack
+# =====================================================================
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedListStack:
+    def __init__(self):
+        self.top = None
+        self.size = 0
+    
+    def push(self, value):
+        new_node = Node(value)
+        new_node.next = self.top
+        self.top = new_node
+        self.size += 1
+    
+    def pop(self):
+        if self.top is None:
+            raise Exception("Stack Underflow")
+        value = self.top.data
+        self.top = self.top.next
+        self.size -= 1
+        return value
+        
+    def peek(self):
+        if self.top is None:
+            raise Exception("Stack is empty")
+        return self.top.data
+    
+    def display(self):
+        if self.top is None:
+            raise Exception("Stack is empty")
+        else:
+            print("Stack elements from top to bottom:")
+            curr = self.top
+            while curr:
+                print(curr.data)
+                curr = curr.next
+
+    def curr_size(self):
+        return self.size
+    
+    def is_empty(self):
+        return self.top is None
+    
+
+def demo_linked_list_stack():
+    print("\n" + "=" * 60)
+    print(" 3. STACK USING LINKED LIST ")
+    print("=" * 60)
+
+    stack = LinkedListStack()
+
+    # Push operations
+    stack.push(100)
+    stack.push(200)
+    stack.push(300)
+    stack.display()
+
+    # Peek operation
+    print(f"Peek (top item): {stack.peek()}") 
+
+    # Pop operation
+    popped_item = stack.pop()
+    print(f"Popped item: {popped_item}")
+
+    # Check Empty
+    print(f"Is stack empty?: {stack.is_empty()}")
+
+    # Size 
+    print(f"Stack size (current elements): {stack.curr_size()}")
+
+
+# =====================================================================
+# 4. Stack Application: Balanced Parentheses Checker
 # =====================================================================
 def is_balanced(expression: str) -> bool:
     stack = []
@@ -152,4 +228,5 @@ def demo_balanced_brackets():
 if __name__ == "__main__":
     demo_list_stack()
     demo_custom_stack()
+    demo_linked_list_stack()
     demo_balanced_brackets()
