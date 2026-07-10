@@ -12,6 +12,7 @@ Currently documented structures:
 
 - **Arrays (Dynamic Arrays / Python Lists):** [01_arrays](01_arrays/README.md) - Core reference for dynamic array operations, complexities, and basic search/reverse algorithms.
 - **Stacks (Last-In-First-Out):** [02_stacks](02_stacks/README.md) - Reference for stack operations and their application in parentheses validation.
+- **Queues (First-In-First-Out):** [03_queues](03_queues/README.md) - Reference for queue operations with list, deque, and custom linked node implementations.
 
 ---
 
@@ -23,7 +24,10 @@ data_structures/
 ├── 01_arrays/
 │   ├── README.md
 │   └── arrays.py
-└── 02_stacks/
+├── 02_stacks/
+│   ├── README.md
+│   └── stacks.py
+└── 03_queues/
     ├── README.md
-    └── stacks.py
+    └── queues.py
 ```
