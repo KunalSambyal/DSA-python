@@ -7,6 +7,7 @@ This directory contains solutions and explanations for LeetCode problems related
 ## Solved Problems
 
 - **Two Sum (Easy):** [0001_two_sum](0001_two_sum/README.md) - Find indices of two numbers that add up to target.
+- **Group Anagrams (Medium):** [0049_group_anagrams](0049_group_anagrams/README.md) - Group anagram strings together.
 - **Contains Duplicate (Easy):** [0217_contains_duplicate](0217_contains_duplicate/README.md) - Check if array contains duplicates.
 - **Valid Anagram (Easy):** [0242_valid_anagram](0242_valid_anagram/README.md) - Check if two strings are anagrams of each other.
 
@@ -20,6 +21,9 @@ This directory contains solutions and explanations for LeetCode problems related
 ├── 0001_two_sum/
 │   ├── README.md
 │   └── two_sum.py
+├── 0049_group_anagrams/
+│   ├── README.md
+│   └── group_anagrams.py
 ├── 0217_contains_duplicate/
 │   ├── README.md
 │   └── contains_duplicate.py
