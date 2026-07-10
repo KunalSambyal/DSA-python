@@ -8,6 +8,26 @@ The problem asks us to determine if an input string containing only parenthesis 
 
 ---
 
+## Brute Force Approach
+
+Repeatedly search for adjacent matching pairs of brackets (`()`, `[]`, or `{}`) in the string and replace them with empty strings. Keep doing this until no matching pairs can be found. If the final string is empty, the input string is valid; otherwise, it is invalid.
+
+### Algorithm
+
+```python
+def isValid(s: str) -> bool:
+    while "()" in s or "[]" in s or "{}" in s:
+        s = s.replace("()", "").replace("[]", "").replace("{}", "")
+    return len(s) == 0
+```
+
+### Complexity
+
+- **Time Complexity:** **O(N^2)** because in the worst case, we perform string search and replacement operations of size **O(N)** up to **N/2** times.
+- **Space Complexity:** **O(N)** due to string creation during replacements.
+
+---
+
 ## Optimized Approach (Using a Stack)
 
 A stack is the perfect data structure for this problem because the last bracket opened must be the first one closed (LIFO - Last In First Out).
@@ -39,5 +59,5 @@ class Solution:
 
 ### Complexity
 
-- **Time Complexity:** **O(n)** because we traverse the string of length $n$ exactly once, and stack operations (`push`, `pop`) take **O(1)** time.
-- **Space Complexity:** **O(n)** since in the worst case (e.g., `((((((`), we push all characters onto the stack.
+- **Time Complexity:** **O(N)** because we traverse the string of length **N** exactly once, and stack operations (`push`, `pop`) take **O(1)** time.
+- **Space Complexity:** **O(N)** since in the worst case (e.g., `((((((`), we push all characters onto the stack.
