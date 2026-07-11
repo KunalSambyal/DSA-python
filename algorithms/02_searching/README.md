@@ -16,6 +16,13 @@ Searching is the process of finding the position of a target element within a da
 
 ## Detailed Explanations
 
+### Linear Search
+
+- **File:** [linear_search.py](linear_search.py)
+- **Concept:** Sequentially scans each element of the collection from the beginning until a match is found or the end of the collection is reached.
+- **Prerequisite:** None. Works on both sorted and unsorted collections.
+- **Space Complexity:** **O(1)** auxiliary space.
+
 ### Binary Search
 
 - **File:** [binary_search.py](binary_search.py)

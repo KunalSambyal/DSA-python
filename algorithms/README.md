@@ -24,6 +24,7 @@ Searching algorithms locate the position of a target element within a collection
 
 Currently documented algorithms:
 
+- **Linear Search:** [linear_search.py](02_searching/linear_search.py) - Sequential search on unsorted/sorted collections.
 - **Binary Search:** [binary_search.py](02_searching/binary_search.py) - Logarithmic search on sorted arrays, implemented iteratively and recursively.
 
 ---
@@ -42,7 +43,8 @@ algorithms/
 │   └── selection_sort.py
 ├── 02_searching/
 │   ├── README.md
-│   └── binary_search.py
+│   ├── binary_search.py
+│   └── linear_search.py
 ├── 03_greedy/
 ├── 04_backtracking/
 ├── 05_dynamic_programming/
