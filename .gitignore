@@ -17,3 +17,17 @@ env/
 
 # Task management files
 improvements.md
+
+# C++ compiled binaries and build artifacts
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.gch
+*.dSYM/
+bin/
+build/
