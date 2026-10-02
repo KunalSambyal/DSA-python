@@ -31,3 +31,5 @@ improvements.md
 *.dSYM/
 bin/
 build/
+
+scratch/
